@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 MAINTAINER Ben Firshman <ben@orchardup.com>
 RUN apt-get update -qq && apt-get install -y python-software-properties sudo
 RUN apt-add-repository -y ppa:chris-lea/redis-server
